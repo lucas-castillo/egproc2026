@@ -24,6 +24,8 @@ filters:
   - flourish
   - roughnotation
   # - editable
+execute: 
+  cache: true
 editor: source
 mouse-wheel: false
 history: false
