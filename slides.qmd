@@ -30,6 +30,8 @@ editor: source
 mouse-wheel: false
 history: false
 code-block-border-left: true
+bibliography: refs.bib
+csl: apa.csl
 ---
 ## This is a test slide
 with some text
