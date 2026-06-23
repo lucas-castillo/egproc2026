@@ -24,6 +24,10 @@ filters:
   - flourish
   - roughnotation
   # - editable
+knitr:
+  opts_chunk:
+    dev: png
+    dev.args: { bg: "transparent"}
 execute: 
   cache: true
 editor: source
