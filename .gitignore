@@ -58,5 +58,5 @@ rsconnect/
 /.quarto/
 **/*.quarto_ipynb
 .positai
-template_slides.html
+slides.html
 
