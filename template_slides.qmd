@@ -1,0 +1,80 @@
+---
+author:
+  - name: Lucas Castillo
+    affiliations: University of Warwick
+  - name: Stella C. Qian
+    affiliations: University of Warwick
+  - name: Adam N. Sanborn
+    affiliations: University of Warwick
+title: Presentation title
+subtitle: Subtitle
+format:
+  revealjs: 
+    theme: [assets/style.scss]
+    incremental: false
+    self-contained: true
+    width: 1600
+    height: 900
+    auto-stretch: true
+# revealjs-plugins:
+#   - editable
+filters:
+  - assets/invert-h1.lua
+  - more-fragments
+  - flourish
+  - roughnotation
+  # - editable
+editor: source
+mouse-wheel: false
+history: false
+code-block-border-left: true
+---
+## This is a test slide
+with some text
+
+## This is another slide
+with some more [text]{.rn-fragment rn-type=underline rn-color=red}
+
+# New Section
+
+## Code Slide
+::: {.columns}
+
+::: {.column width="50%"}
+```{r, echo=T, eval=F}
+#| flourish: 
+#|   - target: "mean" 
+#|     style: "--rn-type: circle; --rn-color: red;" 
+
+x <- c(1, 2, 3, 4, 5)
+mean(x)
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+mean(1:5)
+```
+:::
+
+:::
+
+
+
+## Code 2
+```{r, echo=T, eval=F}
+#| flourish:
+#|   - target: "mean"
+#|     style: "--rn-type: circle; --rn-color: red;"
+
+x <- c(1, 2, 3, 4, 5)
+mean(x)
+```
+
+## Snippets
+I've defined the following snippets
+
+  - [`tf`]{.rn-fragment rn-type=underline rn-color=red} for text flourish
+  - [`cf`]{.rn-fragment rn-type=underline rn-color=red} for code flourish
+  - `::` for quarto div
+  - `col` for 2-column environment
