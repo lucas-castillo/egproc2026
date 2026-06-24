@@ -7,6 +7,7 @@ author:
   # - name: Adam N. Sanborn
   #   affiliations: University of Warwick
 title: Autocorrelated Sampling in Cognition
+output-dir: docs
 # subtitle: 
 format:
   revealjs: 
