@@ -19,14 +19,14 @@ format:
     html-math-method:
       method: mathjax
       url: "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
-revealjs-plugins:
-  - editable
+# revealjs-plugins:
+#   - editable
 filters:
   - assets/invert-h1.lua
   - more-fragments
   - flourish
   - roughnotation
-  - editable
+  # - editable
 knitr:
   opts_chunk:
     dev: png
@@ -511,6 +511,36 @@ Preprint (under review at [Behavior Research Methods]{.red}):
 ::: {.absolute bottom="0" left="0"}
 @castillo2025SamplrPackageTool
 :::
+
+## Take home message
+::: {.incremental}
+- MCMC sampling is a successful approach to modelling cognition
+- Using random generation, we can identify which sampler the mind uses
+- Applying MCMC to your models is easier than ever with the `samplr` package
+:::
+
+
+## Some links
+::: {.columns}
+
+::: {.column width="30%"}
+Link to these slides
+![](img/qr-slides.png)
+:::
+
+::: {.column width="30%"}
+Link to `samplr` package paper
+![](img/qr-BRM.png)
+:::
+::: {.column width="30%"}
+Link to random generation paper
+![](img/qr-cog.png)
+:::
+
+:::
+
+
+
 ## References
 
 ::: {#refs}
