@@ -7,7 +7,6 @@ author:
   # - name: Adam N. Sanborn
   #   affiliations: University of Warwick
 title: Autocorrelated Sampling in Cognition
-output-dir: docs
 # subtitle: 
 format:
   revealjs: 
@@ -502,7 +501,7 @@ Preprint (under review at [Behavior Research Methods]{.red}):
 :::
 
 ::: {.column width="50%"}
-{{< pdf img/castillo26brm.pdf width=100% height=800 >}}
+[View PDF](https://osf.io/preprints/psyarxiv/ax8hm_v2){target="_blank"}
 :::
 
 :::
